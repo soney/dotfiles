@@ -1,7 +1,4 @@
-Xft.dpi: 221
-Xcursor.size: 48
-
-URxvt.font: xft:monospace:size=7
+URxvt.font: xft:monospace:size=10
 URxvt.scrollBar: false
 
 URxvt.perl-lib: ~/.config/rxvt/ext
