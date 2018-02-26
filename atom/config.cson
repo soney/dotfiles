@@ -1,0 +1,22 @@
+"*":
+  "atom-latex":
+    build_after_save: false
+  core:
+    autoHideMenuBar: true
+    excludeVcsIgnoredPaths: false
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "Inconsolata"
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "0d825aa6-b9fc-41f3-8c09-8ef9aa0137f7"
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        black: "#222222"
+        blue: "#5151e3"
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
