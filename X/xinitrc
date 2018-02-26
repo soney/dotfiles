@@ -1,0 +1,4 @@
+#!/usr/bin/env/bash
+# Load resources
+[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+autocutsel &
