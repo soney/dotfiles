@@ -1,12 +1,11 @@
-URxvt.font: xft:monospace:size=10
+Xft.dpi:                    163
+Xft.antialias:              true
+
+URxvt.font: xft:Inconsolata for Powerline:size=12
 URxvt.scrollBar: false
 
-URxvt.perl-lib: ~/.config/rxvt/ext
-URxvt.perl-ext-common: ...,keyboard-select
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
-
-urxvt*foreground: white
-urxvt*background: #222222
+URxvt*foreground: white
+URxvt*background: #222222
 
 *color0:  #2E3436
 *color1:  #a40000

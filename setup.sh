@@ -1,8 +1,9 @@
 #!/bin/bash
 
+apt-get update -y
+
 echo "Installing i3"
 apt-get install -y autoconf automake
-apt-get update -y
 apt-get install -y i3 i3-wm i3blocks i3lock i3status
 apt-get install -y rxvt-unicode-256color
 
@@ -21,7 +22,10 @@ ln -s `pwd`/X/Xresources ~/.Xresources
 ln -s `pwd`/X/xinitrc ~/.xinitrc
 
 echo "Bash Config"
+apt-get install -y fonts-powerline
+pip install powerline-shell
 ln -s `pwd`/bash/bashrc ~/.bashrc
+ln -s `pwd`/bash/powerline-shell.json ~/.powerline-shell.json
 
 echo "Atom packages"
 apm install --packages-file `pwd`/atom/packages.list 
